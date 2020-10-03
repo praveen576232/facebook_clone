@@ -1,0 +1,99 @@
+.header_left > img{
+height: 40px;
+margin-right: 6px;
+}
+.tooltip_logout{
+    width: 200px;
+    height: 100px;
+    background: white;
+    display: grid;
+    place-items: center;
+}
+.tooltip_logout_button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: #2e81f4 !important;
+}
+.tooltip_logout_button:hover{
+    color: #2e81f4 ;
+    background: white!important;
+}
+.header{
+    height: 45px;
+    display:flex;
+    padding: 20px;
+    width: 100vw;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    justify-content: space-between;
+}
+.header_left{
+    display: flex;
+  justify-content: space-evenly;
+ 
+}
+.header_serach{
+    display: flex;
+    align-items: center;
+   padding: 10px;
+    border: none;
+    background: #eff2f5;
+    border-radius: 20px;
+}
+.header_serach > input{
+ border: none;
+ background: #eff2f5;
+ padding: 5px;
+} 
+.header_serach > input:focus{
+    outline-width: 0;
+}
+.header_tabs{
+    display: flex;
+
+    align-items: center;
+    /* background: green; */
+}
+
+.header_tab_option{
+    display: flex;
+    padding: 0 30px;
+   
+    color: gray;
+    cursor: pointer;
+}
+
+.header_option-ative{
+    color:#2e81f4;
+    border-bottom: 2px solid #2e81f4;
+}
+.header_tab_option:hover{
+    color:#2e81f4; 
+    padding: 30px;
+    align-items: center;
+    border-bottom: none;
+    border-radius: 5px;
+    background: #eff2f5;
+    
+    border-radius: 5px;
+}
+.header_right_option{
+    display: flex;
+    align-items: center;
+  
+cursor: pointer;
+}
+.header_right_option > .MuiSvgIcon-root{
+    color:grey;
+      margin-right: 20px;
+ }
+ 
+.header_right_option >p {
+    margin-left: 5px;
+    margin-right: 5px;
+}

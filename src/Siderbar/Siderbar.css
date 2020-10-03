@@ -1,0 +1,31 @@
+.siderbar{
+    display:flex;
+    flex-direction: column;
+   padding: 15px;
+   flex: 0.33;
+  
+  
+}
+.siderbar__option{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.siderbar__option >h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.siderbar__option > .MuiSvgIcon-root{
+    color:#2e81f4;
+font-size: xx-large;
+}
+.siderbar__option:hover{
+    
+    background: lightgray;
+
+}
+.siderbar__option >p{
+    margin-left: 5px;
+}

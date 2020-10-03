@@ -1,0 +1,11 @@
+.storyrails{
+    display: flex;
+    /* flex-direction: row;
+    flex-flow: nowrap;
+    /* flex-wrap: nowrap; */
+
+    padding: 10px;
+    /* overflow-x: scroll;
+    overflow-y: hidden;  */
+   
+}

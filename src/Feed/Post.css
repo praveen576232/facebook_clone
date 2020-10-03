@@ -1,0 +1,54 @@
+.poast_image >img{
+     width: 100%;
+}
+.post{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+.poast_top{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+.poast_top_info{
+    padding: 10px;
+}
+.poast_top_info >h3{
+    font-size: medium;
+}
+.poast_top_info >p{
+    font-size: small;
+    color: grey;
+}
+.poast_bottom{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.poast__options >p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   margin-left: 10px;
+    
+    }
+    .poast__options{
+        padding: 15px;
+        color:grey;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        border-top: 1px solid lightgray;
+    }
+    .poast__option{
+        align-items: center;
+        display: flex;
+      
+        align-items: center;
+    }
+    .poast__option >p{
+        margin-left: 5px;
+        text-align: center;
+    }
